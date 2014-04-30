@@ -1,0 +1,9 @@
+ #!/bin/bash
+
+
+gnuplot Ex.gp
+gnuplot Ex2.gp
+gnuplot Ex3.gp
+gnuplot Ex4.gp
+pdflatex Ex.tex
+

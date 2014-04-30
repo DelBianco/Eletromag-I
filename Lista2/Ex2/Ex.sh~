@@ -1,0 +1,5 @@
+#!/bin/bash
+
+gnuplotting Ex.gp
+
+pdflatex Ex.tex

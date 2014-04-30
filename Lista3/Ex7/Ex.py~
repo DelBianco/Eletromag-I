@@ -1,0 +1,20 @@
+import math
+
+s = ''
+
+MAX = 1
+Xmax = 50
+Ymax = 50
+k=0.25
+q=1
+x0=5.5
+s=''
+for j in range(-Ymax,Ymax):
+	
+	V1 = round(k*q/abs(j -x0))
+	V1 +=round(k*q/abs(j +x0))
+	V1 += round(k*q/abs(j -x0))
+	for j in range(-Ymax,Ymax):
+		s+= str(V1)+'\t'
+	print s
+	s=''
